@@ -84,7 +84,7 @@ function TextForm(probs) {
         </div>
       </div>
       <div
-        className="container my-4 "
+        className="container my-4"
         style={{ color: probs.mode === "light" ? "black" : "white" }}
       >
         <h3 className="mx-4">Your text summary</h3>
