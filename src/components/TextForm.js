@@ -67,7 +67,7 @@ function TextForm(probs) {
       >
         <h3 className="mx-4">Your text summary</h3>
         <p className="mx-4">
-          <b>{text.split(" ").length - 1}</b> words and <b>{text.length}</b>{" "}
+          <b>{text.split(" ").filter((element)=>{return element.length!==0}).length}</b> words and <b>{text.length}</b>{" "}
           characters
         </p>
         <h3 className="mx-4">Preview</h3>

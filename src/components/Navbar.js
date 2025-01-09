@@ -50,7 +50,9 @@ function Navbar(probs) {
                 }`}
                 for="flexSwitchCheckDefault"
               >
-                switch {probs.mode === "light" ? "dark" : "light"} mode
+                <strong>
+                  switch {probs.mode === "light" ? "dark" : "light"} mode
+                </strong>
               </label>
             </div>
           </div>

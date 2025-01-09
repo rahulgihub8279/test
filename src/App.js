@@ -35,7 +35,7 @@ function App() {
   };
   return (
     <>
-      <Router basename="/project">
+      <Router >
         <Navbar
           title="Text Analyzer"
           aboutText="about textutils"
