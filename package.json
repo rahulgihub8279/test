@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rahulgithub8279.github.io/textutils",
+  "homepage": "https://rahulgithub8279.github.io/react_cs",
   "name": "react_cs",
   "version": "0.1.0",
   "private": true,
@@ -16,12 +16,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +47,7 @@
   "license": "ISC",
   "devDependencies": {
     "ajv": "^8.17.1",
+    "gh-pages": "^6.3.0",
     "react-router-dom": "^7.1.1"
   }
 }
